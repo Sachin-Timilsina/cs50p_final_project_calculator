@@ -73,9 +73,9 @@ def main():
         print("Answer:", number)
         sys.exit("Program Finished!")
     elif choice == 2: # Use bmi calculator for choice 2
-        age = ("Give your age: ").strip()
-        user_weight = ("Give your weight(Kg): ").strip()
-        user_height = ("Give your height(m): ").strip()
+        age = input("Give your age: ").strip()
+        user_weight = input("Give your weight(Kg): ").strip()
+        user_height = input("Give your height(m): ").strip()
         # Check if numerical values are given
         try:
             age = float(age)
