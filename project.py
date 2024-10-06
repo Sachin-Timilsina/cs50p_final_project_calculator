@@ -5,7 +5,7 @@ def main():
     operators = ['+', '-', '*', '/', '%', 'sin', 'cos', 'tan']
     print()
     print("3 programs to choose from:")
-    print("1) Calculator")
+    print("1) General Calculator")
     print("2) BMI Calculator")
     print("3) Converter")
     print("4) exit")
